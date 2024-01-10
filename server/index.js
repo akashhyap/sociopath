@@ -44,7 +44,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 app.get("/", (req, res) => {
-  res.json("Hello");
+  res.json("Server is running...");
 });
 
 /* ROUTES WITH FILES */
